@@ -1,0 +1,343 @@
+This file includes 12 records.
+Corrected words are as follow:
+[
+    "fature",
+    "fone",
+    "ik",
+    "mor",
+    "capeble",
+    "\u201c",
+    "damb",
+    "pon",
+    "\u201d",
+    "kat",
+    "\u201c",
+    "\u201d"
+][
+    {
+        "word": [
+            "fature",
+            "NN"
+        ],
+        "prev_word": [
+            "A",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "fature",
+        "suggestions": [
+            {
+                "feature": 1
+            },
+            {
+                "mature": 1
+            },
+            {
+                "future": 1
+            },
+            {
+                "nature": 1
+            },
+            {
+                "azure": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "fone",
+            "NN"
+        ],
+        "prev_word": [
+            "fature",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "fone",
+        "suggestions": [
+            {
+                "one": 1
+            },
+            {
+                "zone": 1
+            },
+            {
+                "none": 1
+            },
+            {
+                "fan": 2
+            },
+            {
+                "fee": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "ik",
+            "NN"
+        ],
+        "prev_word": [
+            "fone",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "ik",
+        "suggestions": [
+            {
+                "id": 1
+            },
+            {
+                "s": 2
+            },
+            {
+                "x": 2
+            },
+            {
+                "r": 2
+            },
+            {
+                "y": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "mor",
+            "NN"
+        ],
+        "prev_word": [
+            "ik",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "mor",
+        "suggestions": [
+            {
+                "r": 2
+            },
+            {
+                "ios": 2
+            },
+            {
+                "log": 2
+            },
+            {
+                "orm": 2
+            },
+            {
+                "map": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "capeble",
+            "JJ"
+        ],
+        "prev_word": [
+            "mor",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "capeble",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "\u201c",
+            "NNP"
+        ],
+        "prev_word": [
+            "ap",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "\u201c",
+        "suggestions": [
+            {
+                "s": 1
+            },
+            {
+                "x": 1
+            },
+            {
+                "a": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "y": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "damb",
+            "VBZ"
+        ],
+        "prev_word": [
+            "\u201c",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "damb",
+        "suggestions": [
+            {
+                "dumb": 1
+            },
+            {
+                "data": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "pon",
+            "NN"
+        ],
+        "prev_word": [
+            "damb",
+            "VBZ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "pon",
+        "suggestions": [
+            {
+                "one": 2
+            },
+            {
+                "post": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "\u201d",
+            "NNP"
+        ],
+        "prev_word": [
+            "pon",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "\u201d",
+        "suggestions": [
+            {
+                "s": 1
+            },
+            {
+                "x": 1
+            },
+            {
+                "a": 1
+            },
+            {
+                "r": 1
+            },
+            {
+                "y": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "kat",
+            "NN"
+        ],
+        "prev_word": [
+            "\u201d",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "kat",
+        "suggestions": [
+            {
+                "at": 1
+            },
+            {
+                "a": 2
+            },
+            {
+                "that": 2
+            },
+            {
+                "as": 2
+            },
+            {
+                "an": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "\u201c",
+            "NNP"
+        ],
+        "prev_word": [
+            "|NUMBER|",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "\u201c",
+        "suggestions": [
+            {
+                "a": 1
+            },
+            {
+                "i": 1
+            },
+            {
+                "x": 1
+            },
+            {
+                "s": 1
+            },
+            {
+                "b": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "\u201d",
+            "NNP"
+        ],
+        "prev_word": [
+            "Services",
+            "NNPS"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "\u201d",
+        "suggestions": [
+            {
+                "a": 1
+            },
+            {
+                "of": 2
+            },
+            {
+                "to": 2
+            },
+            {
+                "is": 2
+            },
+            {
+                "in": 2
+            }
+        ]
+    }
+]

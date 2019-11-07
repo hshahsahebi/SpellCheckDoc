@@ -1,0 +1,271 @@
+This file includes 12 records.
+Corrected words are as follow:
+[
+    "be",
+    "can",
+    "any",
+    "at",
+    "you",
+    "allows",
+    "your",
+    "to",
+    "in",
+    "settlement",
+    "|DATE|",
+    "machines"
+][
+    {
+        "word": [
+            "be",
+            "VB"
+        ],
+        "prev_word": [
+            "anyone",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "be",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "can",
+            "MD"
+        ],
+        "prev_word": [
+            "be",
+            "VB"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "can",
+        "suggestions": [
+            {
+                "an": 1
+            },
+            {
+                "a": 2
+            },
+            {
+                "in": 2
+            },
+            {
+                "as": 2
+            },
+            {
+                "on": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "any",
+            "DT"
+        ],
+        "prev_word": [
+            "giant",
+            "JJ"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "any",
+        "suggestions": [
+            {
+                "and": 1
+            },
+            {
+                "at": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "at",
+            "IN"
+        ],
+        "prev_word": [
+            "any",
+            "DT"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "at",
+        "suggestions": [
+            {
+                "and": 2
+            },
+            {
+                "of": 2
+            },
+            {
+                "or": 2
+            },
+            {
+                "data": 2
+            },
+            {
+                "app": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "you",
+            "PRP"
+        ],
+        "prev_word": [
+            "graph",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "you",
+        "suggestions": [
+            {
+                "of": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "allows",
+            "VBZ"
+        ],
+        "prev_word": [
+            "you",
+            "PRP"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "allow",
+        "suggestions": [
+            {
+                "allow": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "your",
+            "PRP$"
+        ],
+        "prev_word": [
+            "type",
+            "VB"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "your",
+        "suggestions": [
+            {
+                "you": 1
+            },
+            {
+                "for": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "to",
+            "TO"
+        ],
+        "prev_word": [
+            "your",
+            "PRP$"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "to",
+        "suggestions": [
+            {
+                "tv": 1
+            },
+            {
+                "tco": 1
+            },
+            {
+                "soa": 2
+            },
+            {
+                "ip": 2
+            },
+            {
+                "atom": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "in",
+            "IN"
+        ],
+        "prev_word": [
+            "The",
+            "DT"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "in",
+        "suggestions": [
+            {
+                "is": 1
+            },
+            {
+                "an": 1
+            },
+            {
+                "im": 1
+            },
+            {
+                "ip": 1
+            },
+            {
+                "id": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "settlement",
+            "NN"
+        ],
+        "prev_word": [
+            "in",
+            "IN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "settlement",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "|DATE|",
+            "NN"
+        ],
+        "prev_word": [
+            "settlement",
+            "NN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "|DATE|",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "machines",
+            "NNS"
+        ],
+        "prev_word": [
+            "support",
+            "NN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "machine",
+        "suggestions": []
+    }
+]

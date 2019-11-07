@@ -1,0 +1,243 @@
+This file includes 10 records.
+Corrected words are as follow:
+[
+    "modelng",
+    "executeble",
+    "servies",
+    "loked",
+    "Asociation",
+    "fetures",
+    "kontrols",
+    "consept",
+    "presense",
+    "identiti"
+][
+    {
+        "word": [
+            "modelng",
+            "NN"
+        ],
+        "prev_word": [
+            "Some",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "modelng",
+        "suggestions": [
+            {
+                "modeling": 1
+            },
+            {
+                "model": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "executeble",
+            "JJ"
+        ],
+        "prev_word": [
+            "to",
+            "TO"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "executeble",
+        "suggestions": [
+            {
+                "executable": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "servies",
+            "NNS"
+        ],
+        "prev_word": [
+            "Web",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "servies",
+        "suggestions": [
+            {
+                "services": 1
+            },
+            {
+                "serves": 1
+            },
+            {
+                "service": 2
+            },
+            {
+                "server": 2
+            },
+            {
+                "servers": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "loked",
+            "VBN"
+        ],
+        "prev_word": [
+            "are",
+            "VBP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "loked",
+        "suggestions": [
+            {
+                "locked": 1
+            },
+            {
+                "asked": 2
+            },
+            {
+                "blocked": 2
+            },
+            {
+                "coded": 2
+            },
+            {
+                "led": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "Asociation",
+            "NNP"
+        ],
+        "prev_word": [
+            "Industry",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "asociation",
+        "suggestions": [
+            {
+                "association": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "fetures",
+            "NNS"
+        ],
+        "prev_word": [
+            "Other",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "fetures",
+        "suggestions": [
+            {
+                "features": 1
+            },
+            {
+                "ventures": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "kontrols",
+            "NNS"
+        ],
+        "prev_word": [
+            "access",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "kontrols",
+        "suggestions": [
+            {
+                "controls": 1
+            },
+            {
+                "control": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "consept",
+            "NN"
+        ],
+        "prev_word": [
+            "The",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "consept",
+        "suggestions": [
+            {
+                "concept": 1
+            },
+            {
+                "content": 2
+            },
+            {
+                "connect": 2
+            },
+            {
+                "context": 2
+            },
+            {
+                "concepts": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "presense",
+            "NN"
+        ],
+        "prev_word": [
+            "of",
+            "IN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "presense",
+        "suggestions": [
+            {
+                "presence": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "identiti",
+            "VB"
+        ],
+        "prev_word": [
+            "to",
+            "TO"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "identiti",
+        "suggestions": [
+            {
+                "identity": 1
+            },
+            {
+                "identify": 2
+            }
+        ]
+    }
+]

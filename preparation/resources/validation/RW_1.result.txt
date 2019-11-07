@@ -1,0 +1,253 @@
+This file includes 13 records.
+Corrected words are as follow:
+[
+    "second",
+    "The",
+    "titles",
+    "its",
+    "and",
+    "Additionally",
+    "stateless",
+    "sold",
+    "are",
+    "message",
+    "the",
+    "descriptions",
+    "Any"
+][
+    {
+        "word": [
+            "second",
+            "VBD"
+        ],
+        "prev_word": [
+            "|STARTSENT|",
+            "JJ"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "second",
+        "suggestions": [
+            {
+                "beyond": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "The",
+            "DT"
+        ],
+        "prev_word": [
+            "second",
+            "VBD"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "the",
+        "suggestions": [
+            {
+                "this": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "titles",
+            "VBZ"
+        ],
+        "prev_word": [
+            "moves",
+            "NNS"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "title",
+        "suggestions": [
+            {
+                "files": 2
+            },
+            {
+                "sites": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "its",
+            "PRP$"
+        ],
+        "prev_word": [
+            "titles",
+            "VBZ"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "it",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "and",
+            "CC"
+        ],
+        "prev_word": [
+            "its",
+            "PRP$"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "and",
+        "suggestions": [
+            {
+                "id": 2
+            },
+            {
+                "dns": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "Additionally",
+            "RB"
+        ],
+        "prev_word": [
+            "a",
+            "DT"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "additionally",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "stateless",
+            "JJ"
+        ],
+        "prev_word": [
+            "Additionally",
+            "RB"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "stateless",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "sold",
+            "VBN"
+        ],
+        "prev_word": [
+            "books",
+            "NNS"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "sell",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "are",
+            "VBP"
+        ],
+        "prev_word": [
+            "sold",
+            "VBN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "be",
+        "suggestions": [
+            {
+                "as": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "message",
+            "NN"
+        ],
+        "prev_word": [
+            "In",
+            "IN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "message",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "the",
+            "DT"
+        ],
+        "prev_word": [
+            "message",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "the",
+        "suggestions": [
+            {
+                "to": 2
+            },
+            {
+                "that": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "descriptions",
+            "NNS"
+        ],
+        "prev_word": [
+            "the",
+            "DT"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "description",
+        "suggestions": [
+            {
+                "description": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "Any",
+            "NNP"
+        ],
+        "prev_word": [
+            "application",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "any",
+        "suggestions": [
+            {
+                "and": 1
+            },
+            {
+                "an": 1
+            },
+            {
+                "a": 2
+            },
+            {
+                "in": 2
+            },
+            {
+                "as": 2
+            }
+        ]
+    }
+]

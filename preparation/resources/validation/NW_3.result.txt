@@ -1,0 +1,240 @@
+This file includes 10 records.
+Corrected words are as follow:
+[
+    "Po",
+    "programst",
+    "basisk",
+    "Phe",
+    "chapteri",
+    "PREST",
+    "Transferf",
+    "mobilep",
+    "PIGURE",
+    "Yahooo"
+][
+    {
+        "word": [
+            "Po",
+            "NNP"
+        ],
+        "prev_word": [
+            "|STARTSENT|",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "po",
+        "suggestions": [
+            {
+                "to": 1
+            },
+            {
+                "so": 1
+            },
+            {
+                "no": 1
+            },
+            {
+                "pop": 1
+            },
+            {
+                "pc": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "programst",
+            "NN"
+        ],
+        "prev_word": [
+            "other",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "programst",
+        "suggestions": [
+            {
+                "programs": 1
+            },
+            {
+                "program": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "basisk",
+            "NN"
+        ],
+        "prev_word": [
+            "category",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "basisk",
+        "suggestions": [
+            {
+                "basis": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "Phe",
+            "NNP"
+        ],
+        "prev_word": [
+            "|STARTSENT|",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "phe",
+        "suggestions": [
+            {
+                "the": 1
+            },
+            {
+                "he": 1
+            },
+            {
+                "use": 2
+            },
+            {
+                "when": 2
+            },
+            {
+                "one": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "chapteri",
+            "NN"
+        ],
+        "prev_word": [
+            "this",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "chapteri",
+        "suggestions": [
+            {
+                "chapter": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "PREST",
+            "NNP"
+        ],
+        "prev_word": [
+            "|STARTSENT|",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "prest",
+        "suggestions": [
+            {
+                "rest": 1
+            },
+            {
+                "best": 2
+            },
+            {
+                "guest": 2
+            },
+            {
+                "past": 2
+            },
+            {
+                "present": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "Transferf",
+            "NNP"
+        ],
+        "prev_word": [
+            "State",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "transferf",
+        "suggestions": [
+            {
+                "transfer": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "mobilep",
+            "NN"
+        ],
+        "prev_word": [
+            "for",
+            "IN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "mobilep",
+        "suggestions": [
+            {
+                "mobile": 1
+            },
+            {
+                "mobileme": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "PIGURE",
+            "NNP"
+        ],
+        "prev_word": [
+            "|STARTSENT|",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "pigure",
+        "suggestions": [
+            {
+                "figure": 1
+            },
+            {
+                "picture": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "Yahooo",
+            "NNP"
+        ],
+        "prev_word": [
+            "|URL|",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "yahooo",
+        "suggestions": [
+            {
+                "yahoo": 1
+            }
+        ]
+    }
+]

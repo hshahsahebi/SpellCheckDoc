@@ -1,0 +1,5 @@
+Windos Azore Platfrom alows developres toop stoge thier appications on top of so infrastructure that any application built with the Framework can live locally, in cloud network, or some combination thereof.
+filefront.
+It has whatever limit the ISV has placed on it's software.
+The biggest difference is that because SLS Azure managed in the cloud, there are no administrative controls over the SQL engine.
+System metrics Notice that in the previus you section, determined what amounts to application-level statistics for your site.

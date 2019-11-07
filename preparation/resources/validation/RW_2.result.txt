@@ -1,0 +1,273 @@
+This file includes 12 records.
+Corrected words are as follow:
+[
+    "a",
+    "has",
+    "leadership",
+    "see",
+    "page",
+    "name",
+    "account",
+    "select",
+    "and",
+    "distribution",
+    "a",
+    "license"
+][
+    {
+        "word": [
+            "a",
+            "DT"
+        ],
+        "prev_word": [
+            "BlackBerry",
+            "NNP"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "a",
+        "suggestions": [
+            {
+                "and": 2
+            },
+            {
+                "is": 2
+            },
+            {
+                "can": 2
+            },
+            {
+                "has": 2
+            },
+            {
+                "so": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "has",
+            "VBZ"
+        ],
+        "prev_word": [
+            "a",
+            "DT"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "have",
+        "suggestions": [
+            {
+                "nas": 1
+            },
+            {
+                "paas": 2
+            },
+            {
+                "how": 2
+            },
+            {
+                "saas": 2
+            },
+            {
+                "iaas": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "leadership",
+            "NN"
+        ],
+        "prev_word": [
+            "has",
+            "VBZ"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "leadership",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "see",
+            "VBP"
+        ],
+        "prev_word": [
+            "a",
+            "DT"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "see",
+        "suggestions": [
+            {
+                "set": 1
+            },
+            {
+                "fee": 1
+            },
+            {
+                "sea": 1
+            },
+            {
+                "web": 2
+            },
+            {
+                "use": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "page",
+            "NN"
+        ],
+        "prev_word": [
+            "see",
+            "VBP"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "page",
+        "suggestions": [
+            {
+                "part": 2
+            },
+            {
+                "make": 2
+            },
+            {
+                "place": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "name",
+            "NN"
+        ],
+        "prev_word": [
+            "your",
+            "PRP$"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "name",
+        "suggestions": [
+            {
+                "page": 2
+            },
+            {
+                "ami": 2
+            },
+            {
+                "home": 2
+            },
+            {
+                "time": 2
+            },
+            {
+                "face": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "account",
+            "NN"
+        ],
+        "prev_word": [
+            "name",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "account",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "select",
+            "VBP"
+        ],
+        "prev_word": [
+            "passworda",
+            "NN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "select",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "and",
+            "CC"
+        ],
+        "prev_word": [
+            "option",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "and",
+        "suggestions": [
+            {
+                "in": 2
+            },
+            {
+                "on": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "distribution",
+            "NN"
+        ],
+        "prev_word": [
+            "under",
+            "IN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "distribution",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "a",
+            "DT"
+        ],
+        "prev_word": [
+            "distribution",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "a",
+        "suggestions": [
+            {
+                "and": 2
+            },
+            {
+                "of": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "license",
+            "NN"
+        ],
+        "prev_word": [
+            "free",
+            "JJ"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "license",
+        "suggestions": []
+    }
+]

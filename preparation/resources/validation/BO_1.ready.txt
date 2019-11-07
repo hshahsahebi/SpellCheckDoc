@@ -1,0 +1,4 @@
+This is analogus to the goals to used create the Amazon Simple Storage System The servic is meant two be low touch, in that it abstracts many of the common concerns of database administrators for hardware requirements, software maintenance, indexing, and performance optimization.
+Microsoft Exchange and Windows Mobile use a technology calld ActiveSync (http://www.microsoft.com/ that has gone through several development cycles.
+It is a standard of OASIS and an XML standard for passing autentication and authorization between an identity provider and the service provider.
+Twitter provides a unique way of accesing the knowledge of a community in real timing.

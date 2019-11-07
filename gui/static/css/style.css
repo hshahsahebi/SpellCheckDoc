@@ -1,0 +1,261 @@
+html, body, body *{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #ece6df;
+    color: #969696;
+    font-size: 12px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.status-bar{
+    background-color: #ece6df;
+    color: #000;
+    font-size: 14px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-input{
+    font-size: 24px;
+    color: #999;
+    padding: 20px;
+    transition: 1s;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.suggestions, .dictionary{
+    border-left: 1px solid #999;
+}
+
+.section-header{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dictionary-search-input{
+    position: absolute;
+    bottom: 0;
+    border-top: 2px dashed #999;
+    width: 99%;
+    padding: 5px;
+}
+.dictionary-search-input #dic_search{
+    width: 100%;
+    border: 0;
+    height: 40px;
+}
+.dictionary-word-list div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dictionary-word-list div:nth-child(odd){
+    background: #eef;
+}
+.dictionary-word-list div:nth-child(even){
+    background: #d7d7d9;
+}
+
+.loading{
+    background: #fff !important;
+}
+
+.spellcheck-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.suggest-list .suggest{
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s;
+    position: relative;
+}
+.suggest-list .suggest:hover{
+    text-shadow: 1px 0px 0px #999;
+}
+.suggest-list .suggest.error_non_word{
+    border-bottom: 5px solid #f54545;
+    color: #f54545;
+}
+.suggest-list .suggest.error_real_word{
+    border-bottom: 5px solid #f58645;
+    color: #f58645;
+}
+.suggest-list .suggest.error_rw_ignored{
+    border-bottom: 5px solid #ecae37;
+    color: #ecae37;
+}
+.suggest-list .suggest.error_case{
+    border-bottom: 5px solid #37a8ec;
+    color: #37a8ec;
+}
+.suggest-list .suggest.error_non_word.active{
+    background: #f54545;
+    color: #fff;
+}
+.suggest-list .suggest.error_real_word.active{
+    background: #f58645;
+    color: #fff;
+}
+.suggest-list .suggest.error_rw_ignored.active{
+    background: #ecae37;
+    color: #fff;
+}
+.suggest-list .suggest.error_case.active{
+    background: #37a8ec;
+    color: #fff;
+}
+.suggest-list .suggest h3{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.suggest-list .suggest h3 b, .suggest-list .suggest p b{
+    font-weight: bold;
+}
+.suggest-list .suggest p{
+    font-size: 12px;
+    display: none;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px dashed #fff;
+}
+.suggest-list .suggest.active{
+    padding-top: 25px;
+}
+.suggest-list .suggest.active p{
+    display: block;
+}
+.suggest-list .suggest.active .ignore-suggestion{
+    display: inline-block;
+}
+.suggest-list .suggest.error_non_word.active .add-to-dictionary{
+    display: inline-block;
+}
+.suggest-list .suggest .ignore-suggestion{
+    display: none;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 20px;
+}
+.suggest-list .suggest .add-to-dictionary{
+    display: none;
+    position: absolute;
+    top: 2px;
+    right: 35px;
+    font-size: 20px;
+}
+
+.text-input .highlight{
+    padding: 2px 5px;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 0;
+    position: relative;
+    display: inline-block;
+}
+.text-input .highlight.active{
+    border-radius: 12px;
+}
+.text-input .highlight.error_non_word{
+    color: #f54545;
+    border-bottom: 3px solid #f54545;
+}
+.text-input .highlight.error_real_word{
+    color: #f58645;
+    border-bottom: 3px solid #f58645;
+}
+.text-input .highlight.error_rw_ignored{
+    color: #ecae37;
+    border-bottom: 3px solid #ecae37;
+}
+.text-input .highlight.error_case{
+    color: #37a8ec;
+    border-bottom: 3px solid #37a8ec;
+}
+.text-input .highlight.error_non_word.active{
+    background: #f54545;
+    color: #fff;
+}
+.text-input .highlight.error_real_word.active{
+    background: #f58645;
+    color: #fff;
+}
+.text-input .highlight.error_rw_ignored.active{
+    background: #ecae37;
+    color: #fff;
+}
+.text-input .highlight.error_case.active{
+    background: #37a8ec;
+    color: #fff;
+}
+
+.replacements{
+    position: absolute;
+    top: 40px;
+    left: -1px;
+    width: auto;
+    min-width: 150px;
+    background-color: #e7e7e7;
+    font-size: 14px;
+    box-shadow: 0px 4px 10px #333;
+    color:#333;
+    line-height: normal;
+    z-index: 1;
+}
+.replacements .no-instance{
+    text-align: center;
+    font-weight: bold;
+}
+.replacements .replace-instance{
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.replacements .replace-instance .replace-distance{
+    display: inline-block;
+    width: 20%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+    margin: 0;
+}
+.replacements .replace-instance .replace-word{
+    display: inline-block;
+    width: 80%;
+    padding: 7px;
+    margin: 0;
+    text-align: center;
+}
+.replacements .replace-instance:hover .replace-word{
+    background-color: #28a745;
+    color: #fff;
+}
+.replacements .replace-instance:hover{
+    box-shadow: 0 2px 2px #333;
+}

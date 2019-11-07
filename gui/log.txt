@@ -1,0 +1,296 @@
+Proccessing Strated: 1572383267.4930313
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('aplication', 'NN'), ('No', 'NNP'), ('suggestion', 'NN'), ('available', 'JJ'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('aplication', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 2, 'textual_status': 'Non-Word Error', 'lemma': 'aplication', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('No', 'NNP'), 'prev_word': ('aplication', 'NN'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'no', 'suggestions': []}
+Included Status: Ignored (previous non-word)
+Validation Result: {'word': ('suggestion', 'NN'), 'prev_word': ('No', 'NNP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'suggestion', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('available', 'JJ'), 'prev_word': ('suggestion', 'NN'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'available', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('available', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572383272.8245654 in 5.331534147262573 seconds
+----------------------------------------
+
+Proccessing Strated: 1572383336.4240444
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('aplication', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('aplication', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 2, 'textual_status': 'Non-Word Error', 'lemma': 'aplication', 'suggestions': [{'application': 1}, {'applications': 2}, {'allocation': 2}, {'replication': 2}]}
+Included Status: Included
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('aplication', 'NN'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': '|ENDSENT|', 'suggestions': []}
+Included Status: Ignored (previous non-word)
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}, {'an': 2}, {'any': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572383343.6112883 in 7.187243938446045 seconds
+----------------------------------------
+
+Proccessing Strated: 1572383981.2376127
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('aplication', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('aplication', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 2, 'textual_status': 'Non-Word Error', 'lemma': 'aplication', 'suggestions': [{'application': 1}, {'applications': 2}, {'allocation': 2}, {'replication': 2}]}
+Included Status: Included
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('aplication', 'NN'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': '|ENDSENT|', 'suggestions': []}
+Included Status: Ignored (previous non-word)
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572383988.3779068 in 7.140294075012207 seconds
+----------------------------------------
+
+Proccessing Strated: 1572384207.5045714
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('aplication', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('aplication', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 2, 'textual_status': 'Non-Word Error', 'lemma': 'aplication', 'suggestions': [{'application': 1}, {'applications': 2}, {'allocation': 2}, {'replication': 2}]}
+Included Status: Included
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('aplication', 'NN'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': '|ENDSENT|', 'suggestions': []}
+Included Status: Ignored (previous non-word)
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572384210.4296281 in 2.9250566959381104 seconds
+----------------------------------------
+
+Proccessing Strated: 1572386857.21307
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('application', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('application', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'application', 'suggestions': {}}
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('application', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572386859.6816401 in 2.4685702323913574 seconds
+----------------------------------------
+
+Proccessing Strated: 1572387081.6651783
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('web', 'JJ'), ('application', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('web', 'JJ'), 'prev_word': ('the', 'DT'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'web', 'suggestions': {}}
+Validation Result: {'word': ('application', 'NN'), 'prev_word': ('web', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'application', 'suggestions': {}}
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('application', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572387084.1048717 in 2.4396934509277344 seconds
+----------------------------------------
+
+Proccessing Strated: 1572443218.7569842
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('applicatin', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('applicatin', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 2, 'textual_status': 'Non-Word Error', 'lemma': 'applicatin', 'suggestions': [{'application': 1}, {'applications': 2}]}
+Included Status: Included
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('applicatin', 'NN'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': '|ENDSENT|', 'suggestions': []}
+Included Status: Ignored (previous non-word)
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572443226.3581026 in 7.601118326187134 seconds
+----------------------------------------
+
+Proccessing Strated: 1572443529.2557054
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('applicaton', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('applicaton', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 2, 'textual_status': 'Non-Word Error', 'lemma': 'applicaton', 'suggestions': [{'application': 1}, {'applications': 2}]}
+Included Status: Included
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('applicaton', 'NN'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': '|ENDSENT|', 'suggestions': []}
+Included Status: Ignored (previous non-word)
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572443532.1830168 in 2.927311420440674 seconds
+----------------------------------------
+
+Proccessing Strated: 1572444010.4931636
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('application', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('application', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'application', 'suggestions': {}}
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('application', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572444012.985833 in 2.4926693439483643 seconds
+----------------------------------------
+
+Proccessing Strated: 1572444053.1368573
+Lines fetched: [[('|STARTSENT|', 'JJ'), ('Cloud', 'NNP'), ('computing', 'NN'), ('is', 'VBZ'), ('shown', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('WEB', 'NNP'), ('application', 'NN'), ('|ENDSENT|', 'NN')], [('|STARTSENT|', 'NN'), ('We', 'PRP'), ('tried', 'VBD'), ('to', 'TO'), ('show', 'VB'), ('all', 'DT'), ('possibilities', 'NNS'), ('|ENDSENT|', 'VBP')]]
+Validation Result: {'word': ('|STARTSENT|', 'JJ'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('Cloud', 'NNP'), 'prev_word': ('|STARTSENT|', 'JJ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'cloud', 'suggestions': {}}
+Validation Result: {'word': ('computing', 'NN'), 'prev_word': ('Cloud', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'computing', 'suggestions': {}}
+Validation Result: {'word': ('is', 'VBZ'), 'prev_word': ('computing', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'be', 'suggestions': {}}
+Validation Result: {'word': ('shown', 'VBN'), 'prev_word': ('is', 'VBZ'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('in', 'IN'), 'prev_word': ('shown', 'VBN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'in', 'suggestions': {}}
+Validation Result: {'word': ('the', 'DT'), 'prev_word': ('in', 'IN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'the', 'suggestions': {}}
+Validation Result: {'word': ('WEB', 'NNP'), 'prev_word': ('the', 'DT'), 'status': 5, 'textual_status': 'Case Error', 'lemma': 'web', 'suggestions': {}}
+Included Status: Included
+Validation Result: {'word': ('application', 'NN'), 'prev_word': ('WEB', 'NNP'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'application', 'suggestions': {}}
+Validation Result: {'word': ('|ENDSENT|', 'NN'), 'prev_word': ('application', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Validation Result: {'word': ('|STARTSENT|', 'NN'), 'prev_word': (None, None), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|STARTSENT|', 'suggestions': {}}
+Validation Result: {'word': ('We', 'PRP'), 'prev_word': ('|STARTSENT|', 'NN'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'we', 'suggestions': {}}
+Validation Result: {'word': ('tried', 'VBD'), 'prev_word': ('We', 'PRP'), 'status': 3, 'textual_status': 'Real-Word Error', 'lemma': 'try', 'suggestions': []}
+Included Status: Included
+Validation Result: {'word': ('to', 'TO'), 'prev_word': ('tried', 'VBD'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'to', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('show', 'VB'), 'prev_word': ('to', 'TO'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': 'show', 'suggestions': {}}
+Validation Result: {'word': ('all', 'DT'), 'prev_word': ('show', 'VB'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'all', 'suggestions': [{'a': 2}]}
+Included Status: Included
+Validation Result: {'word': ('possibilities', 'NNS'), 'prev_word': ('all', 'DT'), 'status': 4, 'textual_status': 'Real-Word Error Ignored', 'lemma': 'possibility', 'suggestions': []}
+Included Status: Ignored (previous real-word/rwe)
+Validation Result: {'word': ('|ENDSENT|', 'VBP'), 'prev_word': ('possibilities', 'NNS'), 'status': 1, 'textual_status': 'Correct Word', 'lemma': '|ENDSENT|', 'suggestions': {}}
+Proccessing Ended at 1572444055.5744371 in 2.437579870223999 seconds
+----------------------------------------
+

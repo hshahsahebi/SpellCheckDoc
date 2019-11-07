@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% block meta %}{% endblock %}
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        {% block style %}{% endblock %}
+
+        <title>SpellCheckDoc {% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            {% block content %}{% endblock %}
+
+            <div class="row status-bar">
+                <div class="col-md-6 status-bar-text">Status bar...</div>
+                <div class="col-md-3 status-bar-suggestion"></div>
+                <div class="col-md-3 status-bar-dictionary"></div>
+            </div>
+
+            <footer>
+                <a href="https://github.com/hshahsahebi/SpellCheckDoc" target="_blank">SpellCheckDoc</a> developed by 
+                <a href="https://www.linkedin.com/in/hshahsahebi/" target="_blank">Hossein Shahsahebi</a> 
+                for NLP project at Asia Pacific University. 
+                <i class="fas fa-heart text-danger"></i>
+            </footer>
+        </div>
+
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+    </body>
+</html>

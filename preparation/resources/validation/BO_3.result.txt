@@ -1,0 +1,410 @@
+This file includes 19 records.
+Corrected words are as follow:
+[
+    "Windos",
+    "Azore",
+    "Platfrom",
+    "alows",
+    "developres",
+    "toop",
+    "stoge",
+    "thier",
+    "appications",
+    "on",
+    "so",
+    "infrastructure",
+    "SLS",
+    "Azure",
+    "managed",
+    "previus",
+    "you",
+    "section",
+    "determined"
+][
+    {
+        "word": [
+            "Windos",
+            "NNP"
+        ],
+        "prev_word": [
+            "|STARTSENT|",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "windos",
+        "suggestions": [
+            {
+                "windows": 1
+            },
+            {
+                "window": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "Azore",
+            "NNP"
+        ],
+        "prev_word": [
+            "Windos",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "azore",
+        "suggestions": [
+            {
+                "azure": 1
+            },
+            {
+                "are": 2
+            },
+            {
+                "more": 2
+            },
+            {
+                "zone": 2
+            },
+            {
+                "core": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "Platfrom",
+            "NNP"
+        ],
+        "prev_word": [
+            "Azore",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "platfrom",
+        "suggestions": [
+            {
+                "platform": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "alows",
+            "VBZ"
+        ],
+        "prev_word": [
+            "Platfrom",
+            "NNP"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "alows",
+        "suggestions": [
+            {
+                "allows": 1
+            },
+            {
+                "logs": 2
+            },
+            {
+                "blogs": 2
+            },
+            {
+                "shows": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "developres",
+            "NNS"
+        ],
+        "prev_word": [
+            "alows",
+            "VBZ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "developres",
+        "suggestions": [
+            {
+                "developers": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "toop",
+            "JJ"
+        ],
+        "prev_word": [
+            "developres",
+            "NNS"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "toop",
+        "suggestions": [
+            {
+                "tool": 1
+            },
+            {
+                "pop": 2
+            },
+            {
+                "tools": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "stoge",
+            "NN"
+        ],
+        "prev_word": [
+            "toop",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "stoge",
+        "suggestions": [
+            {
+                "stage": 1
+            },
+            {
+                "store": 1
+            },
+            {
+                "stop": 2
+            },
+            {
+                "scope": 2
+            },
+            {
+                "story": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "thier",
+            "NN"
+        ],
+        "prev_word": [
+            "stoge",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "thier",
+        "suggestions": [
+            {
+                "think": 2
+            },
+            {
+                "tower": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "appications",
+            "NNS"
+        ],
+        "prev_word": [
+            "thier",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "appications",
+        "suggestions": [
+            {
+                "applications": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "on",
+            "IN"
+        ],
+        "prev_word": [
+            "appications",
+            "NNS"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "on",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "so",
+            "RB"
+        ],
+        "prev_word": [
+            "of",
+            "IN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "so",
+        "suggestions": [
+            {
+                "soa": 1
+            },
+            {
+                "no": 1
+            },
+            {
+                "iso": 1
+            },
+            {
+                "a": 2
+            },
+            {
+                "of": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "infrastructure",
+            "JJ"
+        ],
+        "prev_word": [
+            "so",
+            "RB"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "infrastructure",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "SLS",
+            "NNP"
+        ],
+        "prev_word": [
+            "because",
+            "IN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "sl",
+        "suggestions": [
+            {
+                "tls": 1
+            },
+            {
+                "xls": 1
+            },
+            {
+                "sms": 1
+            },
+            {
+                "sla": 1
+            },
+            {
+                "soa": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "Azure",
+            "NNP"
+        ],
+        "prev_word": [
+            "SLS",
+            "NNP"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "azure",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "managed",
+            "VBD"
+        ],
+        "prev_word": [
+            "Azure",
+            "NNP"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "manage",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "previus",
+            "NN"
+        ],
+        "prev_word": [
+            "the",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "previus",
+        "suggestions": [
+            {
+                "previous": 1
+            },
+            {
+                "premium": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "you",
+            "PRP"
+        ],
+        "prev_word": [
+            "previus",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "you",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "section",
+            "NN"
+        ],
+        "prev_word": [
+            "you",
+            "PRP"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "section",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "determined",
+            "VBD"
+        ],
+        "prev_word": [
+            "section",
+            "NN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "determine",
+        "suggestions": []
+    }
+]

@@ -1,0 +1,5 @@
+Some modelng technologies allow for the reduction of the model to executeble code.
+Many core Web servies are loked out of the iPhone platform.
+Note SNIA (Storage Networking Industry Asociation; http://www.snia.org/) has coined the term Data Storage as a Service (DaaS) to describe the delivery of storage on demand to clients over a distributed system.
+Other fetures of CDMI are access kontrols, usage accounting, and the ability to advertise containers so that applications see these containers as if they are volumes (LUNs with a certain size).
+The consept of presense as it relates to identiti is also introduced.

@@ -1,0 +1,413 @@
+This file includes 21 records.
+Corrected words are as follow:
+[
+    "Droopal",
+    "is",
+    "cores",
+    "the",
+    "standrad",
+    "distiribution",
+    "with",
+    "current",
+    "the",
+    "version",
+    "client",
+    "your",
+    "or",
+    "the",
+    "network",
+    "transactianal",
+    "systems",
+    "modle",
+    "is",
+    "person",
+    "tend"
+][
+    {
+        "word": [
+            "Droopal",
+            "NNP"
+        ],
+        "prev_word": [
+            "The",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "droopal",
+        "suggestions": [
+            {
+                "drupal": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "is",
+            "VBZ"
+        ],
+        "prev_word": [
+            "Droopal",
+            "NNP"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "be",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "cores",
+            "VBZ"
+        ],
+        "prev_word": [
+            "is",
+            "VBZ"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "core",
+        "suggestions": [
+            {
+                "more": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "the",
+            "DT"
+        ],
+        "prev_word": [
+            "cores",
+            "VBZ"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "the",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "standrad",
+            "JJ"
+        ],
+        "prev_word": [
+            "the",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "standrad",
+        "suggestions": [
+            {
+                "standard": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "distiribution",
+            "NN"
+        ],
+        "prev_word": [
+            "standrad",
+            "JJ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "distiribution",
+        "suggestions": [
+            {
+                "distribution": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "with",
+            "IN"
+        ],
+        "prev_word": [
+            "distiribution",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "with",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "current",
+            "JJ"
+        ],
+        "prev_word": [
+            "with",
+            "IN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "current",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "the",
+            "DT"
+        ],
+        "prev_word": [
+            "current",
+            "JJ"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "the",
+        "suggestions": [
+            {
+                "use": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "version",
+            "NN"
+        ],
+        "prev_word": [
+            "the",
+            "DT"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "version",
+        "suggestions": [
+            {
+                "session": 2
+            },
+            {
+                "person": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "client",
+            "NN"
+        ],
+        "prev_word": [
+            "Connect",
+            "NNP"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "client",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "your",
+            "PRP$"
+        ],
+        "prev_word": [
+            "client",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "your",
+        "suggestions": [
+            {
+                "you": 1
+            },
+            {
+                "for": 2
+            },
+            {
+                "or": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "or",
+            "CC"
+        ],
+        "prev_word": [
+            "your",
+            "PRP$"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "or",
+        "suggestions": [
+            {
+                "soa": 2
+            },
+            {
+                "own": 2
+            },
+            {
+                "tv": 2
+            },
+            {
+                "ip": 2
+            },
+            {
+                "pop": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "the",
+            "DT"
+        ],
+        "prev_word": [
+            "Talk",
+            "VB"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "the",
+        "suggestions": [
+            {
+                "to": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "network",
+            "NN"
+        ],
+        "prev_word": [
+            "Google",
+            "NNP"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "network",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "transactianal",
+            "JJ"
+        ],
+        "prev_word": [
+            "in",
+            "IN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "transactianal",
+        "suggestions": [
+            {
+                "transactional": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "systems",
+            "NNS"
+        ],
+        "prev_word": [
+            "transactianal",
+            "JJ"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "system",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "modle",
+            "NN"
+        ],
+        "prev_word": [
+            "this",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "modle",
+        "suggestions": [
+            {
+                "mode": 1
+            },
+            {
+                "module": 1
+            },
+            {
+                "model": 2
+            },
+            {
+                "role": 2
+            },
+            {
+                "code": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "is",
+            "VBZ"
+        ],
+        "prev_word": [
+            "modle",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "be",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "person",
+            "NN"
+        ],
+        "prev_word": [
+            "computing",
+            "VBG"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "person",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "tend",
+            "VBP"
+        ],
+        "prev_word": [
+            "person",
+            "NN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "tend",
+        "suggestions": [
+            {
+                "end": 1
+            },
+            {
+                "and": 2
+            },
+            {
+                "need": 2
+            },
+            {
+                "text": 2
+            },
+            {
+                "feed": 2
+            }
+        ]
+    }
+]

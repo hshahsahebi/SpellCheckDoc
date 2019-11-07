@@ -1,0 +1,353 @@
+This file includes 17 records.
+Corrected words are as follow:
+[
+    "analogus",
+    "to",
+    "to",
+    "used",
+    "create",
+    "servic",
+    "is",
+    "two",
+    "be",
+    "calld",
+    "ActiveSync",
+    "autentication",
+    "and",
+    "accesing",
+    "the",
+    "timing",
+    "|ENDSENT|"
+][
+    {
+        "word": [
+            "analogus",
+            "JJ"
+        ],
+        "prev_word": [
+            "is",
+            "VBZ"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "analogus",
+        "suggestions": [
+            {
+                "analogous": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "to",
+            "TO"
+        ],
+        "prev_word": [
+            "analogus",
+            "JJ"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "to",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "to",
+            "TO"
+        ],
+        "prev_word": [
+            "goals",
+            "NNS"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "to",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "used",
+            "VBN"
+        ],
+        "prev_word": [
+            "to",
+            "TO"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "use",
+        "suggestions": [
+            {
+                "use": 1
+            },
+            {
+                "set": 2
+            },
+            {
+                "users": 2
+            },
+            {
+                "need": 2
+            },
+            {
+                "see": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "create",
+            "VB"
+        ],
+        "prev_word": [
+            "used",
+            "VBN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "create",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "servic",
+            "NN"
+        ],
+        "prev_word": [
+            "The",
+            "DT"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "servic",
+        "suggestions": [
+            {
+                "service": 1
+            },
+            {
+                "services": 2
+            },
+            {
+                "server": 2
+            },
+            {
+                "seris": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "is",
+            "VBZ"
+        ],
+        "prev_word": [
+            "servic",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "be",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "two",
+            "CD"
+        ],
+        "prev_word": [
+            "meant",
+            "VBN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "two",
+        "suggestions": [
+            {
+                "to": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "be",
+            "VB"
+        ],
+        "prev_word": [
+            "two",
+            "CD"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "be",
+        "suggestions": [
+            {
+                "the": 2
+            },
+            {
+                "of": 2
+            },
+            {
+                "in": 2
+            },
+            {
+                "or": 2
+            },
+            {
+                "web": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "calld",
+            "NN"
+        ],
+        "prev_word": [
+            "technology",
+            "NN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "calld",
+        "suggestions": [
+            {
+                "called": 1
+            },
+            {
+                "call": 1
+            },
+            {
+                "card": 2
+            },
+            {
+                "cell": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "ActiveSync",
+            "NNP"
+        ],
+        "prev_word": [
+            "calld",
+            "NN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "activesync",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "autentication",
+            "NN"
+        ],
+        "prev_word": [
+            "passing",
+            "VBG"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "autentication",
+        "suggestions": [
+            {
+                "authentication": 1
+            }
+        ]
+    },
+    {
+        "word": [
+            "and",
+            "CC"
+        ],
+        "prev_word": [
+            "autentication",
+            "NN"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "and",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "accesing",
+            "VBG"
+        ],
+        "prev_word": [
+            "of",
+            "IN"
+        ],
+        "status": 2,
+        "textual_status": "Non-Word Error",
+        "lemma": "accesing",
+        "suggestions": [
+            {
+                "accessing": 1
+            },
+            {
+                "accepting": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "the",
+            "DT"
+        ],
+        "prev_word": [
+            "accesing",
+            "VBG"
+        ],
+        "status": 4,
+        "textual_status": "Real-Word Error Ignored",
+        "lemma": "the",
+        "suggestions": []
+    },
+    {
+        "word": [
+            "timing",
+            "NN"
+        ],
+        "prev_word": [
+            "real",
+            "JJ"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "timing",
+        "suggestions": [
+            {
+                "thing": 2
+            },
+            {
+                "sizing": 2
+            },
+            {
+                "filing": 2
+            },
+            {
+                "gaming": 2
+            },
+            {
+                "tuning": 2
+            }
+        ]
+    },
+    {
+        "word": [
+            "|ENDSENT|",
+            "NN"
+        ],
+        "prev_word": [
+            "timing",
+            "NN"
+        ],
+        "status": 3,
+        "textual_status": "Real-Word Error",
+        "lemma": "|ENDSENT|",
+        "suggestions": []
+    }
+]
